@@ -1,6 +1,6 @@
 {
     "name": "wablas/wablas-client-php",
-    "description": "Wablas Client PHP",
+    "description": "(Unoficial) Wablas Client PHP",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,9 +11,10 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "guzzle/guzzle": "^3.9@dev"
     },
     "autoload": {
-      "Wablas\\": "src"
+      "psr-4": {
+        "Wablas\\": "src"
+      }
     }
 }
