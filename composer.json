@@ -9,10 +9,9 @@
             "email": "mail.dharma.saputra@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "guzzle/guzzle": "^3.9@dev",
-        "guzzlehttp/guzzle": "^6.3@dev"
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
       "psr-4": {
