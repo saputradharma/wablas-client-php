@@ -49,7 +49,7 @@ class WablasClient {
 
     public function sendImage($imageCaption, $imageUrl) {
         if (!empty($this->recipients)) {
-            $res = $this->httpClient->post('/send-message', [
+            $res = $this->httpClient->post('/send-image', [
                 RequestOptions::HEADERS => $this->headers,
                 RequestOptions::FORM_PARAMS => [
                     'phone'     => implode(", ", $this->recipients),
