@@ -1,0 +1,19 @@
+{
+    "name": "wablas/wablas-client-php",
+    "description": "Wablas Client PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dharma Saputra",
+            "email": "mail.dharma.saputra@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzle/guzzle": "^3.9@dev"
+    },
+    "autoload": {
+      "Wablas\\": "src"
+    }
+}
